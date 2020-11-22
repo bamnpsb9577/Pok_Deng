@@ -18,7 +18,7 @@ public class Bot {
         Type = GetType.getType();
         SumCard = new int[3];
     }
-//    Swasdee Krub
+    
     public int[] SumCard(){
         for(int i = 0; i < SumCard.length; i++){
             SumCard[i] = (Type[i+3] * 100) + Number[i+3];
