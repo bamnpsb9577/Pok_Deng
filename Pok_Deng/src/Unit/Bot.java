@@ -24,7 +24,7 @@ public class Bot {
         }
         return SumCard;
     }
-    public int sumscoreBot(boolean Draw){
+    public int SumScoreBot(boolean Draw){
         SumCard();
         int t = 1;
         int sum = 0;
