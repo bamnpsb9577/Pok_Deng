@@ -10,7 +10,7 @@ package pok_deng_v4;
  * @author thatphum
  */
 public class Random {
-    private static int[] Number;
+    private int[] Number;
     private int[] Type;
     private int[] Sum;
     public Random(){
@@ -32,7 +32,7 @@ public class Random {
         }
         return Type;
     }
-    public void check(){
+    public void checkSameCard(){
         for(int i = 0; i < 6;i++){
             for(int j = 0; j < Sum.length-1; j++){
                 if((Sum[i]==Sum[j])&&i!=j){

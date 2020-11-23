@@ -12,9 +12,6 @@ package Deck;
 public class Deck {
     private int[] Number;
     private int[] Type;
-    private int[][] Card;
-    public Deck(){
-    }
     public void setNumberCard(int[] Number) {
         this.Number = Number;
     }

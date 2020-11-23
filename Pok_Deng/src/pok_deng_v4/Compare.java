@@ -16,7 +16,7 @@ public class Compare {
         ScorePlayer = scoerPlayer;
         ScoreBot = scoreBot;
     }
-    public  void Processing(){
+    public void Processing(){
         if(ScorePlayer > ScoreBot){
             System.out.println("----------Win----------");
         }else if (ScorePlayer == ScoreBot){

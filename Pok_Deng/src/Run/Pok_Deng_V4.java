@@ -27,10 +27,10 @@ public class Pok_Deng_V4 {
         while(Gp.Start()){
         Random Rd = new Random();
         Rd.checkSameCard();
-        Deck D = new Deck();
-        D.setNumberCard(Rd.RandomNumber());
-        D.setTypeCard(Rd.RandomType());     
+        Deck D = new Deck();    
         Card C = new Card(Rd.RandomNumber() , Rd.RandomType());   
+        D.setNumberCard(C.getNumber());
+        D.setTypeCard(C.getType()); 
         Player P = new Player(D.getNumber(), D.getType());
         Bot B = new Bot(D.getNumber(), D.getType());      
         P.PrinthCardPlayer(C.StringNumber(),C.Stringtype());   
@@ -39,6 +39,4 @@ public class Pok_Deng_V4 {
         Cp.Processing();
         }
     }
-
-    
 }
