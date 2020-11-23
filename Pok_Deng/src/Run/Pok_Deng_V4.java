@@ -26,7 +26,7 @@ public class Pok_Deng_V4 {
         Gameplay Gp = new Gameplay();
         while(Gp.Start()){
         Random Rd = new Random();
-        Rd.check();
+        Rd.checkSameCard();
         Deck D = new Deck();
         D.setNumberCard(Rd.RandomNumber());
         D.setTypeCard(Rd.RandomType());     
@@ -35,7 +35,7 @@ public class Pok_Deng_V4 {
         Bot B = new Bot(D.getNumber(), D.getType());      
         P.PrinthCardPlayer(C.StringNumber(),C.Stringtype());   
         boolean draw = Gp.Draw(P,C.StringNumber(),C.Stringtype());
-        Compare Cp = new Compare(P.sumscorePlayer(draw), B.sumscoreBot(draw));
+        Compare Cp = new Compare(P.sumscorePlayer(draw), B.SumScoreBot(draw));
         Cp.Processing();
         }
     }
