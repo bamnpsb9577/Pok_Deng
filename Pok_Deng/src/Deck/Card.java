@@ -20,6 +20,13 @@ public class Card {
         number = getnumber;
         type = gettype;
     }
+    public int[] getNumber() {
+        return number;
+    }
+
+    public int[] getType() {
+        return type;
+    }
     public String[] StringNumber(){
         for(int i = 0;i < 6;i++){
             switch(number[i]){
