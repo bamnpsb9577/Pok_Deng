@@ -21,7 +21,7 @@ public class Random {
 
     public int[] RandomNumber() {
         for(int i = 0; i < Number.length;i++){
-            Number[i] = (int) ((Math.random() * 13) *+1);
+            Number[i] = (int) ((Math.random() * 13) +1);
         }
         return Number;
     }
@@ -34,7 +34,7 @@ public class Random {
     }
     public void checkSameCard(){
         for(int i = 0; i < 6;i++){
-            for(int j = 0; j < Sum.length-1; j++){
+            for(int j = 0; j < 6; j++){
                 if((Sum[i]==Sum[j])&&i!=j){
                     Number[i] = (int) ((Math.random() * 13)+1);
                     Type[i] = (int) (Math.random() * 3);

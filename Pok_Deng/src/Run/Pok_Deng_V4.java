@@ -11,6 +11,7 @@ import Unit.Bot;
 import pok_deng_v4.Compare;
 import pok_deng_v4.Gameplay;
 import Unit.Player;
+import java.util.Arrays;
 import pok_deng_v4.Random;
 
 /**
@@ -34,7 +35,7 @@ public class Pok_Deng_V4 {
         Player P = new Player(D.getNumber(), D.getType());
         Bot B = new Bot(D.getNumber(), D.getType());      
         P.PrinthCardPlayer(C.StringNumber(),C.Stringtype());   
-        boolean draw = Gp.Draw(P,C.StringNumber(),C.Stringtype());
+        boolean draw = Gp.Draw(P,C.getName(),C.getNametype());
         Compare Cp = new Compare(P.sumscorePlayer(draw), B.SumScoreBot(draw));
         Cp.Processing();
         }

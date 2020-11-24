@@ -7,6 +7,7 @@ package pok_deng_v4;
 
 import Unit.Player;
 import Deck.Card;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -14,6 +15,7 @@ import java.util.Scanner;
  * @author thatphum
  */
 public class Gameplay {
+    Card C;
     public boolean Start(){
         Scanner sc = new Scanner(System.in);
         while (true) {            

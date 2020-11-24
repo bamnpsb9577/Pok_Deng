@@ -54,4 +54,13 @@ public class Card {
         return  nametype;
     }
 
+    public String[] getName() {
+        return name;
+    }
+
+    public String[] getNametype() {
+        return nametype;
+    }
+    
+
 }

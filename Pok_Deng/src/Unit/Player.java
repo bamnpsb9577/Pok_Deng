@@ -38,7 +38,7 @@ public class Player {
         }
         return sum % 10;
     }
-    public void PrinthCardPlayer(String[] Type , String[] number){
+    public void PrinthCardPlayer(String[] number , String[] Type){
         System.out.print("(\\_/)" +
                                "\n(•_•)" +
                                "\n/ >|"+Type[0]+number[0]+"|"+ "|"+Type[1]+number[1] +"|" );
