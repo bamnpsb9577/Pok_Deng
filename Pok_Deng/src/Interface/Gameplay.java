@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pok_deng_v4;
+package Interface;
 
 import Unit.Player;
 import Deck.Card;

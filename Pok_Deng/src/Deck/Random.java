@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pok_deng_v4;
+package Deck;
+
+import java.util.Arrays;
 
 /**
  *
@@ -42,6 +44,14 @@ public class Random {
                 }
             }
         }
+    }
+            @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("number=").append(Arrays.toString(Number));
+        sb.append("\ntype=").append(Arrays.toString(Type));
+        sb.append("\nsum=").append(Arrays.toString(Sum));
+        return sb.toString();
     }
     
 }

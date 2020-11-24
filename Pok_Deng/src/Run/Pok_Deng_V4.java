@@ -8,11 +8,11 @@ package Run;
 import Deck.Card;
 import Deck.Deck;
 import Unit.Bot;
-import pok_deng_v4.Compare;
-import pok_deng_v4.Gameplay;
+import Interface.Compare;
+import Interface.Gameplay;
 import Unit.Player;
 import java.util.Arrays;
-import pok_deng_v4.Random;
+import Deck.Random;
 
 /**
  *
