@@ -38,7 +38,7 @@ public class Pok_Deng_V4 {
         boolean draw = Gp.Draw(P,C.getName(),C.getNametype());
         Compare Cp = new Compare(P.sumscorePlayer(draw), B.SumScoreBot(draw));
         Cp.Processing();
-            System.out.println("-------------------------------------");
+            System.out.println("---------------------------");
         }
     }
 }

@@ -18,12 +18,12 @@ public class Compare {
     }
     public void Processing(){
         if(ScorePlayer > ScoreBot){
-            System.out.println("----------Win----------");
+            System.out.println("------------Win------------");
         }else if (ScorePlayer == ScoreBot){
-            System.out.println("----------เสมอ----------");
+            System.out.println("------------เสมอ------------");
         }
         else{
-           System.out.println("----------lose----------");
+           System.out.println("------------lose------------");
         }
         System.out.println("Player  =   "+ScorePlayer);
         System.out.println("Bot  =   "+ScoreBot);
